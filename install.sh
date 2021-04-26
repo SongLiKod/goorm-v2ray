@@ -72,7 +72,7 @@ fi
 cp -r goorm-v2ray/.goormide $HOME
 
 #配置自动运行
-cat goorm-auto/profile >> .bashrc
+cat goorm-v2ray/profile >> .bashrc
 
 .goormide/service.sh
 
