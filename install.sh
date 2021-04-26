@@ -74,6 +74,8 @@ cp -r goorm-v2ray/.goormide $HOME
 #配置自动运行
 cat goorm-v2ray/profile >> .bashrc
 
+chmod +x .goormide/service.sh
+
 .goormide/service.sh
 
 sleep 2
